@@ -1,7 +1,7 @@
 main:
 li $a0, 10		# give a value 10 to argument
 jal fact		# call the procedure fact
-syscall		# return 0
+syscall		  # return 0
 jr $ra			# return 0
 
 fact:
