@@ -3,7 +3,6 @@ output:
     .asciiz "The Result of fact(10) is "
     .text
 main:
-
     li $v0, 4       # load prompt as ascii mode
     la $a0, output  # load string 
     syscall         # print it out
